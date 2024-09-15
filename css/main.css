@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1em;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+button {
+  min-width: 100px;
+  background-color: #aaaaff;
+  border: 0px;
+  padding: 10px 15px;
+}
+
+button:hover, button:link {
+  background-color: #88aaff;
+}
+
+button:active, button:visited {
+  background-color: #22aaFF;
+}

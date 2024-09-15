@@ -1,0 +1,13 @@
+body {
+  background-color: #EEEEEE;
+}
+
+.full-container {
+  width: 100%;
+}
+
+.content-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
