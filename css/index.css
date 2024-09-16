@@ -1,5 +1,5 @@
 body {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .full-container {
@@ -9,5 +9,69 @@ body {
 .content-container {
   width: 90%;
   max-width: 1000px;
-  margin: auto;
+  margin: 48px auto 0px auto;
+}
+
+/* HEADER SECTION */
+
+/* WORK EXPERIENCE SECTION */
+
+.work-section {
+  margin-top: 48px;
+}
+
+.work-section ul li img {
+  margin-right: 16px;
+}
+
+ul li {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+ul li ul li {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+ul li ul li img {
+  background-color: #aaeeee;
+  padding: 2px;
+  border-radius: 12px;
+}
+
+.employment-period {
+  margin-left: auto;
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: auto 2fr 1fr;
+}
+
+.grid-row span {
+  display: block;
+}
+
+/* LEADERSHIP EXPERIENCE SECTION */
+
+.leadership-section {
+  margin-top: 48px;
+}
+
+/* PROJECT SECTION */
+
+.project-section h2 {
+  margin-top: 48px;
+}
+
+.row .project {
+  flex: 1;
+}
+
+/* ADAPTIVE DESIGN SECTION */
+
+.row li {
+  flex: 1;
 }

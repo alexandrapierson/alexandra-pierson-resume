@@ -1,8 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
   padding: 0px;
   margin: 0px;
+}
+
+/* 48, 42, 32, 24, 20, 18, 16, 14, 12, 10  */
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.caption {
+  font-size: 0.875rem;
+}
+
+.tooltip {
+  font-size: 0.75rem;
+  text-transform: capitalize;
 }
 
 body {
@@ -24,10 +63,22 @@ button {
   padding: 10px 15px;
 }
 
-button:hover, button:link {
+button:hover,
+button:link {
   background-color: #88aaff;
 }
 
-button:active, button:visited {
-  background-color: #22aaFF;
+button:active,
+button:visited {
+  background-color: #22aaff;
+}
+
+.row {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hidden {
+  display: none;
 }
